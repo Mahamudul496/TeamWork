@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Do You Want to Study?</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Your Study Level</h1>
+        <form id="studyForm">
+            
+            <select id="studyLevel" name="studyLevel" required>
+                <option value="">--Choose an option--</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="postgraduate">Postgraduate</option>
+                <option value="masters">Master's</option>
+                <option value="phd">PhD</option>
+            </select>
+
+            <label for="reason">Do you have any personal requirement?</label>
+            <textarea id="reason" name="reason" rows="5" placeholder=" Write down here..." required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="student.js"></script>
+</body>
+</html>
